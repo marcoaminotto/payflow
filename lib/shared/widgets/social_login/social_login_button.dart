@@ -26,7 +26,7 @@ class SocialLoginButton extends StatelessWidget {
           children: [
             Expanded(
               flex: 1,
-              child: Container(child: Image.asset(AppImages.google)),
+              child: Image.asset(AppImages.google),
             ),
             Container(
               height: 56,
